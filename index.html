@@ -5,58 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROFILE PAGE</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <nav class="navbar">
-        <div class="profile"></div>
-        <div class="botton"></div>
+        <div class="profile">
+            <ul>
+                <li class="title">Profile</li>
+                <li><a href="">Home</a></li>
+                <li><a href="">My Profile</a></li>
+                <li><a href="">Find Connections</a></li>
+            </ul>
+        </div>
+        <div class="button">
+            <a href="#">Sing out</a>
+        </div>
     </nav>
     <main class="main">
         <div class="col-1">
             <div class="card">
-            
+                <div class="content-top-side"></div>
+                <div class="icon-card"><img src="./icons/user-circle.png" alt="user-circle" width="100px"></div>
+                <div class="content-botton-side">
+                    <div class="title">Jane Doe</div>
+                    <div class="map">
+                        <img src="./icons/map-marker.png" alt="map-marker" width="10px">
+                        <p>Seatle</p> 
+                    </div>
+                    <p>Developer | Engineer | Problem Solver</p>
+                    <p>Master of shadows and the internet!</p>
+                    <div class="map">
+                        <img src="./icons/gear.png" alt="gear" width="15px">
+                        <a href="#">edit profile</a>
+                    </div>
+                </div>
             </div>
             <div class="education">
-                <div class="edu-header">
-                    <h2>Education</h2>
+                <div class="top-nav">
+                    <div class="top-title">Education</div>
                 </div>
-                <div class="edu-main">
-                    <h2 class="edu-main-h"> Coding Dojo - Full Stack Bootcamp  </h2>   
-                    <p class="edu-main-p1"> Dec 2019 - Mar 2020</p>
-                    <p class="edu-main-p2"> Triple black belt in Python, MERN and C#</p>
+                <div class="content">
+                    <div class="first-letter">Coding Dojo - Full Stack Bootcamp</div>
+                    <div class="second-letter">Jan 2022 - Mar 2022</div>
+                    <div class="third-letter">Triple black belt in Python, Mern, and C# ... </div>
                 </div>
+                
             </div>
         </div>
         <div class="col-2">
             <div class="connection-request">
-
+                <div class="top-nav">
+                    <div class="number-2">2</div>
+                    <div class="top-title">Connection Request</div>
+                </div>
+                <div class="content">
+                    <div class="content-1">
+                        <div class="icons-small"><img src="./images/todd-s.jpg" alt="todd-s" class="border-image">Todd E</div>
+                        <div class="icons-small"><img src="./icons/accept-circle.png" alt="accept-circle"><img src="./icons/close-circle.png" alt="close-circle"></div>
+                    </div>
+                    <div class="content-1">
+                        <div class="icons-small"><img src="./images/phil-s.jpg" alt="phil-s" class="border-image">Phil K</div>
+                        <div class="icons-small"><img src="./icons/accept-circle.png" alt="accept-circle"><img src="./icons/close-circle.png" alt="close-circle"></div>
+                    </div>
+                </div>
             </div>
-            <div class="your-conections">
-                <div class="yourC-header">
-                    <h2>Your Connections</h2>
+            <div class="connection-request">
+                <div class="top-nav">
+                    <div class="number-500">500+</div>
+                    <div class="top-title">Your Connections</div>
                 </div>
-                <div class="yourC-main">
-                    <ul class="connection-list-box">
-                        <li class="connection-list">
-                            <img class="yourC-icons" src="icons/user-circle.png" alt="user icon"> Adrien D.
-                        </li>
-                        <li class="connection-list">
-                            <img class="yourC-icons" src="icons/user-circle.png" alt="user icon">Anne J.
-                        </li>
-                        <li class="connection-list">
-                            <img class="yourC-icons" src="icons/user-circle.png" alt="user icon">Alayne T.
-                        </li>
-                        <li class="connection-list"> 
-                            <img class="yourC-icons" src="icons/user-circle.png" alt="user icon">Arry Y.
-                        </li>
-                    </ul>
-                </div>
-                <div class="yourC-footer"> 
-                    <a href="https:///www.codingdojo.com" class="yourC-footer-p"> View More</a>
+                <div class="content-conections">
+                    <div class="names">
+                        <div class="content-1">
+                            <div class="icons-small"><img src="./images/adrien-s.jpg" alt="adrien-s" class="border-image">Adrien D</div>
+                        </div>
+                        <div class="content-1">
+                            <div class="icons-small"><img src="./images/anne-s.jpg" alt="anne-s" class="border-image">Anne J</div>
+                        </div>
+                        <div class="content-1">
+                            <div class="icons-small"><img src="./images/alayne-s.jpg" alt="alayne-s" class="border-image">Alayne T</div>
+                        </div>
+                        <div class="content-1">
+                            <div class="icons-small"><img src="./images/arry-s.jpg" alt="arry-s" class="border-image">Arry y</div>
+                        </div>
+                    </div>
+                    <div class="view-more">
+                        <a href="#">view more</a>
+                    </div>
                 </div>
             </div>
         </div>
